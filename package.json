@@ -61,7 +61,8 @@
     "eject": "react-scripts eject",
     "lint": "node node_modules/.bin/eslint src",
     "pre-commit": "npm run test -- --watchAll=false && npm run lint",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "heroku-prebuild": "ls"
   },
   "eslintConfig": {
     "extends": [
